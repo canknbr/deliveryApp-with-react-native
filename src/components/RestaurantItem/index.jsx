@@ -2,6 +2,7 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 import React from 'react';
 import styles from './styles';
 const RestaurantItem = ({restaurant}) => {
+
   return (
     <TouchableOpacity
       style={styles.restaurantItemContainer}
@@ -13,6 +14,7 @@ const RestaurantItem = ({restaurant}) => {
           uri: restaurant.image,
         }}
       />
+    
       <View style={styles.row}>
         <View>
           <Text style={styles.title}>{restaurant.name}</Text>
