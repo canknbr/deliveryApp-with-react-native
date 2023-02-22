@@ -15,7 +15,7 @@ const BasketScreen = () => {
       <FlatList
         data={restaurant.dishes}
         renderItem={({ item }) => <BasketItem dish={item} />}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.name}
         showsVerticalScrollIndicator={false}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
        

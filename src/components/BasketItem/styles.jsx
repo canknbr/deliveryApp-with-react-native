@@ -5,6 +5,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 30,
+    marginHorizontal: 10,
   },
   quantityContainer: {
     backgroundColor: '#d3d3d3',

@@ -8,7 +8,7 @@ const BasketItem = ({dish}) => {
         <Text>1</Text>
       </View>
       <Text style={{ fontWeight: '600' }}>{dish.name}</Text>
-      <Text style={{ marginLeft: 'auto', fontWeight: '300' }}>${dish.price}</Text>
+      <Text style={{ marginLeft: 'auto', fontWeight: '400' }}>${dish.price}</Text>
     </View>
   );
 };
