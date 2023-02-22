@@ -5,7 +5,7 @@ import Header from './Header';
 import React from 'react';
 import restaurants from '../../../assets/data/restaurants.json';
 import styles from './styles';
-const RestaurantDetailPage = ({ navigation }) => {
+const RestaurantDetailScreen = ({ navigation }) => {
   const restaurant = restaurants[0];
   return (
     <View style={styles.page}>
@@ -28,5 +28,5 @@ const RestaurantDetailPage = ({ navigation }) => {
   );
 };
 
-export default RestaurantDetailPage;
+export default RestaurantDetailScreen;
 
